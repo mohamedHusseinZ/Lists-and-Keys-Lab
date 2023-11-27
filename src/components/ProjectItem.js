@@ -1,4 +1,12 @@
 import React from "react";
+const ProjectList = ({ projects }) => (
+  <div>
+    <h2>Project List</h2>
+    {projects.map((project) => (
+      <ProjectItem key={project.id} technologies={project.technologies} />
+    ))}
+  </div>
+);
 
 function ProjectItem({ name, about, technologies }) {
   return (

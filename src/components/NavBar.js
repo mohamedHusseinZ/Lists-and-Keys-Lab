@@ -1,4 +1,6 @@
 import React from "react";
+const NavBar = () => {
+  const links = ['home', 'about', 'contact'];}
 
 function NavBar() {
   const links = ["home", "about", "projects"];
